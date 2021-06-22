@@ -4,14 +4,11 @@ import '../scss/app.scss';
 
 /* Demo JS */
 import './demo.js';
-
-
-import $ from "jquery";
+import $ from 'jquery';
 
 import 'slick-carousel';
 
 // alert('labas');
-
 
 $(document).ready(function() {
   $('.autoplay').slick({
@@ -22,4 +19,4 @@ $(document).ready(function() {
   });
 });
 
-alert("labas");
+// alert("labas");

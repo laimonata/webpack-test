@@ -4,14 +4,42 @@
 
 $slick-font-path: "~slick-carousel/slick/fonts/";
 $slick-loader-path: "~slick-carousel/slick/";
-@import '~slick-carousel/slick/slick';
-@import '~slick-carousel/slick/slick-theme';
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
 
-$la-font-path: '~line-awesome/dist/line-awesome/fonts/';
+$la-font-path: "~line-awesome/dist/line-awesome/fonts/";
 @import "~line-awesome/dist/line-awesome/scss/line-awesome.scss";
 
+.animated-card {
+  .card-body {
+    padding-bottom: 40px;
+  }
+}
 
-
-body {
-  background: red;
+.animated-arrow {
+  background-color: #d2a98e;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Absolutaus elemento centravimas parent elemente */
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -30px;
+  transition: all 3000ms linear;
+  &:hover {
+      cursor: pointer;
+      background-color: red;
+      color: black;
+      transform: scale(2);
+  }
+  i {
+    color: white;
+    font-size: 26px;
+  }
 }
