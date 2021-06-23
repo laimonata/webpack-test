@@ -10,6 +10,8 @@ $slick-loader-path: "~slick-carousel/slick/";
 $la-font-path: "~line-awesome/dist/line-awesome/fonts/";
 @import "~line-awesome/dist/line-awesome/scss/line-awesome.scss";
 
+@import "./sections/bit-slider";
+
 .animated-card {
   .card-body {
     padding-bottom: 40px;
