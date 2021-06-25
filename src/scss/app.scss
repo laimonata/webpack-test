@@ -45,3 +45,8 @@ $la-font-path: "~line-awesome/dist/line-awesome/fonts/";
     font-size: 26px;
   }
 }
+
+.slick-prev:before, 
+  .slick-next:before {
+      color: black;
+  }
